@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Exo+2:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg:        #040810;
+  --bg2:       #060e1c;
+  --bg-card:   #08152a;
+  --bg-cardh:  #0c1e38;
+  --cyan:      #00e5ff;
+  --cyan55:    rgba(0,229,255,0.55);
+  --cyan20:    rgba(0,229,255,0.20);
+  --cyan10:    rgba(0,229,255,0.10);
+  --cyan05:    rgba(0,229,255,0.05);
+  --green:     #00ff88;
+  --green20:   rgba(0,255,136,0.20);
+  --blue:      #4d9fff;
+  --blue20:    rgba(77,159,255,0.20);
+  --text:      #d4e8f5;
+  --textdim:   #5a7f9a;
+  --textmute:  #253546;
+  --border:    rgba(0,229,255,0.14);
+  --borderb:   rgba(0,229,255,0.50);
+  --glowsm:    0 0 12px rgba(0,229,255,0.35);
+  --glowmd:    0 0 24px rgba(0,229,255,0.40), 0 0 60px rgba(0,229,255,0.14);
+  --ff-hd:     'Orbitron', monospace;
+  --ff-bd:     'Exo 2', sans-serif;
+  --ff-mn:     'Share Tech Mono', monospace;
+  font-size:   16px;
+  font-family: var(--ff-bd);
+  color:       var(--text);
+  background:  var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--bg); overflow-x: hidden; min-height: 100vh; }
+a    { text-decoration: none; color: inherit; }
+ul, ol { list-style: none; }
+button { cursor: pointer; border: none; background: none; }
